@@ -11,7 +11,8 @@ The AutoHotkey has one detection using VirusTotal.
 https://www.virustotal.com/gui/file/ce505d272f8d36c5599ac81f005e1d2d586eeaaa778c779ad858e44fdadfdb0d/details
 https://www.hybrid-analysis.com/sample/ce505d272f8d36c5599ac81f005e1d2d586eeaaa778c779ad858e44fdadfdb0d
 
-But If we look closer to some of the names of the file (fa0842f2292240e5405af9e2d03177ce40335b3d94e881305ce9b43c1eeb02a8), it refers to a hash with a high level of detection.
+But If we look closer to some of the names of the file, it refers to a hash with a high level of detection.
+Ex: fa0842f2292240e5405af9e2d03177ce40335b3d94e881305ce9b43c1eeb02a8
 https://www.virustotal.com/gui/file/fa0842f2292240e5405af9e2d03177ce40335b3d94e881305ce9b43c1eeb02a8/detection
 
 Components: AutoHotkey_1.1.32.00_setup.exe (PID: 3988),  setup.exe (PID: 3596).
