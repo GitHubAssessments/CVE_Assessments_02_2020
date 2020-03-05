@@ -22,7 +22,12 @@ https://www.virustotal.com/gui/file/809cde49325a1834ac63ba879d1e751f80086d0ac5a5
 A similar issue was previously observed in older versions of this product:
 https://www.autohotkey.com/boards/viewtopic.php?t=13985
 
-The problem is likely to be found in the overlay.
+The problem is likely to be found in the overlay. 
+
+Also note that this software uses a ShellExecuteEx which could allow local users to gain privilege (CVE-2014-1807). Security aspects related to this function can be found at:
+
+https://docs.microsoft.com/en-us/windows/win32/shell/sec-shell
+https://docs.microsoft.com/en-us/windows/win32/api/shellapi/nf-shellapi-shellexecuteexa
 
 Attributes that we can search for:
 
