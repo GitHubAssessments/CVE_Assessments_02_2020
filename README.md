@@ -27,15 +27,22 @@ The problem is likely to be found in the overlay.
 Also note that this software uses a ShellExecuteEx which could allow local users to gain privilege (CVE-2014-1807). Security aspects related to this function can be found at:
 
 https://docs.microsoft.com/en-us/windows/win32/shell/sec-shell
+
 https://docs.microsoft.com/en-us/windows/win32/api/shellapi/nf-shellapi-shellexecuteexa
 
 Attributes that we can search for:
 
 I.	System process connects to network (likely due to code injection or exploit)
+
 II.	Modifies the context of a thread in another process (thread injection)
+
 III.	Allocates memory in foreign processes
+
 IV.	Queues an APC in another process (thread injection)
+
 V.	Maps a DLL or memory area into another process
+
 VI.	Writes to foreign memory regions
+
 VII.	Creates a process in suspended mode (likely to inject code)
 
