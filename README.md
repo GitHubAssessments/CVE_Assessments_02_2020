@@ -32,7 +32,7 @@ https://docs.microsoft.com/en-us/windows/win32/shell/sec-shell
 
 https://docs.microsoft.com/en-us/windows/win32/api/shellapi/nf-shellapi-shellexecuteexa
 
-Attributes that we can search for:
+Attributes that we can search for associated with the event of an insufficient buffer are:
 
 I.	System process connects to network (likely due to code injection or exploit)
 
